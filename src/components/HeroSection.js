@@ -16,11 +16,11 @@ const HeroSection = ({ onReferNowClick }) => {
       <div className="p-16 text-center">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2">
-            <h1 className="text-6xl font-serif  font-bold mb-6">Accredian</h1>
-            <h1 className=" text-5xl font-bold mb-6 text-nowrap">Let's <span className='text-lime-300'>Learn</span> & <span className='text-yellow-400'> Earn </span></h1>
-            <p className="text-xl font-mono mb-8">Get a chance to win up to Rs. 15,000</p>
+            <h1 className="md:text-8xl text-6xl font-serif  font-bold mb-6">Accredian</h1>
+            <h1 className="md:text-3xl text-2xl italic font-mono font-bold mb-6 text-nowrap">Let's <span className='text-lime-300'>Learn</span> & <span className='text-yellow-400'>Earn </span></h1>
+            <p className="md:text-2xl text-xl font-mono mb-8">Get a chance to win up to Rs. 15,000</p>
             <button 
-              className="bg-white text-blue-600 px-6 py-3 font-bold rounded-full" 
+              className="bg-white md:text-xl text-blue-600 px-6 py-3 font-bold rounded-full" 
               onClick={onReferNowClick}>
               Refer Now
             </button>

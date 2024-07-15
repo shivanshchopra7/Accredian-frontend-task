@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const FooterSection = () => {
   return (
     <div id='support' className="bg-gray-900 text-white p-4">
-        <h1 className='text-center py-4 font-serif text-3xl'>Accredian - <span className='text-gray-300 text-2xl font-mono underline text-nowrap'> credentials that matters </span></h1>
+        <h1 className='text-center py-4 font-serif text-4xl'>Accredian - <span className='text-gray-300 text-xl font-mono italic  text-nowrap'> credentials that matters </span></h1>
       <div className="hidden max-w-6xl mx-auto md:flex flex-col  border-t-2 lg:flex-row justify-between">
         <div className='mt-4'> 
           <h3 className="font-bold mb-4">Programs</h3>

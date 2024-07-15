@@ -15,7 +15,7 @@ const ReferralBenefitsSection = ({ onReferNowClick }) => {
 
   return (
     <div id='refer' className="md:p-16 p-4 text-center">
-      <h2 className="text-3xl font-bold mb-12 pt-8">What Are The  <span className='text-blue-600'> Referral Benefits? </span></h2>
+      <h2 className="md:text-4xl text-3xl font-bold mb-12 pt-8">What Are The  <span className='text-blue-600'> Referral Benefits? </span></h2>
       <div className="max-w-6xl md:mx-auto">
         <TableContainer component={Paper} className="rounded-lg shadow-lg">
           <Table aria-label="referral benefits table">
@@ -29,11 +29,11 @@ const ReferralBenefitsSection = ({ onReferNowClick }) => {
             <TableBody>
               {programs.map((program, index) => (
                 <TableRow key={index}>
-                  <TableCell className="flex items-center border-t py-2 px-4">
-                    <SchoolIcon className="md:mr-8 mr-4" />
+                  <TableCell className="flex items-center border-t py-2 px-4 ">
+                    <SchoolIcon className="md:mr-8 mr-4 " />
                     {program.name}
                   </TableCell>
-                  <TableCell className="border-t py-2 px-4">{program.referrerBonus}</TableCell>
+                  <TableCell className="border-t py-2 px-4 ">{program.referrerBonus}</TableCell>
                   <TableCell className="border-t py-2 px-4">{program.refereeBonus}</TableCell>
                 </TableRow>
               ))}

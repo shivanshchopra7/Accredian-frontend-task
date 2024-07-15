@@ -48,7 +48,7 @@ const FooterSection = () => {
       <div className='flex md:hidden max-w-6xl justify-center mx-auto  flex-col border-t-2'>
   <div className='mt-4 flex justify-center p-4 space-x-4'>
     <p className='font-semibold text-balance'>Email : admissions@accredian.com</p>
-    <p className='font-semibold text-balance'>Phone : +91 9079653292</p>
+    <p className='font-semibold text-balance'>Phone : +91 9079653292 </p>
   </div>
   <div className='flex justify-center items-center mt-4 space-x-4'>
   <a href="https://www.facebook.com/accredianlearn/" target='_blank' className="text-white"><FaFacebookF className='text-xl'/></a>

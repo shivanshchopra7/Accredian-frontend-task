@@ -3,7 +3,8 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const FooterSection = () => {
   return (
     <div id='support' className="bg-gray-900 text-white p-4">
-        <h1 className='text-center py-4 font-serif text-4xl'>Accredian - <span className='text-gray-300 text-xl font-mono italic  text-nowrap'> credentials that matters </span></h1>
+      
+        <h1 className='text-center py-4 font-serif text-4xl'>Accredian - <span className='text-gray-300 text-xl font-mono italic  text-nowrap'>  credentials that matters  </span></h1>
       <div className="hidden max-w-6xl mx-auto md:flex flex-col  border-t-2 lg:flex-row justify-between">
         <div className='mt-4'> 
           <h3 className="font-bold mb-4">Programs</h3>
@@ -37,13 +38,25 @@ const FooterSection = () => {
           <p className='mt-4 font-semibold'>Phone: +91 9079653292 (9 AM - 7 PM)</p>
           <div className="mt-4 flex space-x-4">
             {/* Social media icons */}
-            <a href="https://www.facebook.com/accredianlearn/" target='_blank' className="text-white"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/accredian_edu/" target='_blank' className="text-white"><FaInstagram /></a>
-            <a href="https://x.com/accredianedu" target='_blank' className="text-white"><FaTwitter /></a>
+            <a href="https://www.facebook.com/accredianlearn/" target='_blank' className="text-white"><FaFacebookF className='text-xl' /></a>
+            <a href="https://www.instagram.com/accredian_edu/" target='_blank' className="text-white"><FaInstagram className='text-xl' /></a>
+            <a href="https://x.com/accredianedu" target='_blank' className="text-white"><FaTwitter className='text-xl' /></a>
             
           </div>
         </div>
       </div>
+      <div className='flex md:hidden max-w-6xl justify-center mx-auto  flex-col border-t-2'>
+  <div className='mt-4 flex justify-center p-4 space-x-4'>
+    <p className='font-semibold text-balance'>Email : admissions@accredian.com</p>
+    <p className='font-semibold text-balance'>Phone : +91 9079653292</p>
+  </div>
+  <div className='flex justify-center items-center mt-4 space-x-4'>
+  <a href="https://www.facebook.com/accredianlearn/" target='_blank' className="text-white"><FaFacebookF className='text-xl'/></a>
+            <a href="https://www.instagram.com/accredian_edu/" target='_blank' className="text-white"><FaInstagram className='text-xl' /></a>
+            <a href="https://x.com/accredianedu" target='_blank' className="text-white"><FaTwitter className='text-xl' /></a>
+  </div>
+</div>
+
     </div>
   );
 }

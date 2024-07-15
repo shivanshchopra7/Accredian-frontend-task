@@ -38,9 +38,9 @@ const FooterSection = () => {
           <div className="mt-4 flex space-x-4">
             {/* Social media icons */}
             <a href="https://www.facebook.com/accredianlearn/" target='_blank' className="text-white"><FaFacebookF /></a>
-            <a href="https://x.com/accredianedu" className="text-white"><FaInstagram /></a>
-            <a href="https://www.instagram.com/accredian_edu/" className="text-white"><FaTwitter /></a>
-          
+            <a href="https://www.instagram.com/accredian_edu/" target='_blank' className="text-white"><FaInstagram /></a>
+            <a href="https://x.com/accredianedu" target='_blank' className="text-white"><FaTwitter /></a>
+            
           </div>
         </div>
       </div>
